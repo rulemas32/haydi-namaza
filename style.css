@@ -1,0 +1,52 @@
+:root {
+  --bg: #111;
+  --card: #1a1a1a;
+  --accent: #d4af37;
+  --text: #fff;
+  --muted: #aaa;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: var(--card);
+}
+
+h1 {
+  margin: 0;
+  color: var(--accent);
+}
+
+#location {
+  color: var(--muted);
+}
+
+main {
+  padding: 20px;
+}
+
+#times div {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+#next-prayer {
+  margin-top: 20px;
+  font-size: 1.3em;
+  color: var(--accent);
+}
+
+.ad-space {
+  margin: 20px 0;
+  padding: 10px;
+  background: #333;
+  color: var(--accent);
+  text-align: center;
+}
